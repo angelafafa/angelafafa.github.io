@@ -1,0 +1,162 @@
+.bg
+{
+    width: 100%;
+    height: 100px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bg.jpeg");
+  height: 360px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.leftop-text {
+  text-align: center;
+  position: absolute;
+  top: 0%;
+  left: 0.5%;
+  /* transform: translate(-50%, -50%); */
+  color: white;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+table {
+    border: none; 
+    border-collapse:separate; 
+    border-spacing: 3em 0.5em;
+}
+
+/* .td {
+    padding-right: 10px;
+    border-collapse : separate;
+    border-spacing: 5px;
+} */
+
+.container {
+        height: auto;
+        overflow: hidden;
+      }
+      .right {
+        width: 200px;
+        float: right;
+        background: #fffc54;
+      }
+      .left {
+        background: #e3e3dc;
+        width: auto;
+        overflow: hidden;
+      }
+
+.fixedMain {
+    max-width: 1200px;
+    left: 50%;
+    transform: translate(0%, 0%);
+}
+
+.fixedColumn {
+  width: 200px;
+  float: left;
+}
+
+.flexibleColumn {
+  margin-left: 210px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+.center_div {
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+  /* border: 3px solid red; */
+}
+
+.new_container {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  /* border: 3px solid green; */
+}
+.new_container:before, .new_container:after {
+  content: " ";
+  display: table;
+}
+.new_container:after {
+  clear: both;
+}
+@media (min-width: 768px) {
+  .new_container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .new_container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .new_container {
+    width: 1170px;
+  }
+}
+
+.new_container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.new_container-fluid:before, .new_container-fluid:after {
+  content: " ";
+  display: table;
+}
+.new_container-fluid:after {
+  clear: both;
+}
