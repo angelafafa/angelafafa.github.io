@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<style>
+.bg
+{
+    width: 100%;
+    height: 100px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("bg.jpeg");
+  height: 360px;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.leftop-text {
+  text-align: center;
+  position: absolute;
+  top: 1%;
+  left: 1.5%;
+  /* transform: translate(-50%, -50%); */
+  color: white;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+table {
+    border: none; 
+    border-collapse:separate; 
+    border-spacing: 3em 0.5em;
+}
+
+/* .td {
+    padding-right: 10px;
+    border-collapse : separate;
+    border-spacing: 5px;
+} */
+
+.container {
+        height: auto;
+        overflow: hidden;
+      }
+      .right {
+        width: 200px;
+        float: right;
+        background: #fffc54;
+      }
+      .left {
+        background: #e3e3dc;
+        width: auto;
+        overflow: hidden;
+      }
+
+.fixedMain {
+    max-width: 1200px;
+    left: 50%;
+    transform: translate(0%, 0%);
+}
+
+.fixedColumn {
+  width: 200px;
+  float: left;
+}
+
+.flexibleColumn {
+  margin-left: 210px;
+}
+
+</style>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>∫(birth,death) study(t) dt=life</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <!-- page content -->
+    <div class="hero-image">
+        <div class="leftop-text">
+            <h1 style="font-family: Lato, sans-serif;
+            font-size: 15pt;
+            font-weight: 300;">∫(birth,death) study(t) dt=life</h1>
+          </div>
+        <div class="hero-text">
+            <h1 style="font-family: Lato;font-size:90px;font-weight: 700;">Yunhong Wu</h1>
+          </div>
+      </div>
+
+
+        <div class="fixedMain">
+            <hr>
+        <div class="fixedColumn" style="text-align:center;">
+            <figure>
+                <img src="avartar.jpeg" style="max-width: 100%">
+                <!-- <figcaption>Fig.1 - Trulli, Puglia, Italy.</figcaption> -->
+              </figure>
+
+              <button type="button aligned:cen; max-width:100%;" style="color: white; background-color: #008CBA;" onClick="parent.open('cv.pdf')">Curriculum Vitae</button>
+        </div>
+        <div  class="flexibleColumn">
+            <h2>
+                Education
+            </h2>
+            <table>
+                <tr>
+                    <td>&#9642  2018 - 2020</td>
+                    <td>M.S.	Biostatistics</td>
+                    <td>Harvard University</td>
+                </tr>
+                <tr>
+                    <td>&#9642  2014 - 2017</td>
+                    <td>B.S.	Major in Statistics, Minor in Computer Science</td>
+                    <td>University of Wisconsin–Madison</td>
+                </tr>
+              </table>
+              <br></br>
+
+
+            <h2>
+                Research Interests
+            </h2>
+            <table>
+                <tr>
+                    <td>&#9642  Design and analysis of clinical trials</td>
+                </tr>
+                <tr>
+                    <td>&#9642  Statistical methods for longitudinal data</td>
+                </tr>
+              </table>
+              <br></br>
+            
+
+
+            <h2>
+                Contact
+            </h2>
+            <table>
+                <tr>
+                    <td>&#9642  Email: wu292@wisc.edu</td>
+                </tr>
+              </table>
+        </div>
+    </div>
+      
+
+
+  </body>
+</html>
