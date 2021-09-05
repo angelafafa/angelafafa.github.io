@@ -1,10 +1,11 @@
 document.write('\
 \
+
 <div class="topnav">\
-<a href="about.html">About</a>\
+<a href="misc.html">Hobbies</a>\
 <a href="publication.html">Publications</a>\
 <a href="research.html">Research</a>\
-<a class="active" href="index1.html">Home</a>\
+<a class="active" href="index.html">Home</a>\
 <div class="leftop-text">\
     <h1 style="font-family: Lato, sans-serif;\
     font-size: 15pt;\
