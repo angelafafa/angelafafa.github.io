@@ -1,6 +1,5 @@
 document.write('\
 \
-
 <div class="topnav">\
 <a href="misc.html">Hobbies</a>\
 <a href="publication.html">Publications</a>\
